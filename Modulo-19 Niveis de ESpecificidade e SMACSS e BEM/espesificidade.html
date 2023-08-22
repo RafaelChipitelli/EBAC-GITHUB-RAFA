@@ -1,0 +1,29 @@
+<!-- Estamos Falando nesse modulo sobre espesificidade dos estilos.
+quanto mais espesifico mais a frente vai estar na ordem de prioridade para ser lido pelo
+navegador -->
+
+<!-- Ordem de Prioridade: CSS Inline, Class, Tag -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    /* 0 0 1 */
+    button {
+        background-color: blue;
+    }
+
+    /* 0 1 0 */
+    .btn-sucesso {
+        background-color: green;
+    }
+</style>
+<body>
+    <!-- 1 0 0 -->
+    <button style="background-color: red;" class="btn-sucesso">Enviar Mensagem</button>
+</body>
+</html>

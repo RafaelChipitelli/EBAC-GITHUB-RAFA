@@ -1,0 +1,14 @@
+HTML (HyperText Markup Language), CSS (Cascading Style Sheets) e JavaScript são três tecnologias essenciais para a construção de páginas da web. Cada uma desempenha um papel fundamental na criação de páginas interativas e visualmente atraentes. 
+
+HTML (HyperText Markup Language): HTML é a espinha dorsal de qualquer página da web. É uma linguagem de marcação que define a estrutura e o conteúdo da página. O HTML utiliza elementos e tags para marcar e estruturar o texto, imagens, links e outros elementos da página. Ele fornece a base para a organização do conteúdo, como cabeçalhos, parágrafos, listas, tabelas e muito mais.
+CSS (Cascading Style Sheets): O CSS é responsável pela aparência e estilização das páginas da web. Ele permite controlar a apresentação visual dos elementos HTML definidos anteriormente. Com o CSS, é possível alterar cores, fontes, tamanhos, layouts, margens, espaçamentos e outros aspectos de design. O CSS também permite criar layouts responsivos, adaptáveis a diferentes tamanhos de tela e dispositivos.
+JavaScript: O JavaScript é uma linguagem de programação que adiciona interatividade e funcionalidade às páginas da web. Com o JavaScript, é possível criar recursos dinâmicos, como animações, validação de formulários, manipulação de eventos, atualização de conteúdo em tempo real e muito mais. Ele permite a interação do usuário com a página e a criação de aplicações web complexas.
+Em resumo disso daí:
+
+HTML é responsável pela estrutura e conteúdo da página. Ele marca e organiza o texto, imagens e links.
+
+CSS cuida do estilo e aparência da página. Ele define cores, fontes, layouts e outros aspectos visuais.
+
+JavaScript adiciona interatividade e funcionalidade à página. Ele permite animações, validação de formulários e manipulação de eventos.
+
+Essas três tecnologias trabalham juntas para criar páginas da web visualmente atraentes, bem estruturadas e interativas.

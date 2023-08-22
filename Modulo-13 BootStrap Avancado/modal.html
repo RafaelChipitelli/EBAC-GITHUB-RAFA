@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BootStrap - Modal Pop-Up</title>
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <style>
+        * {
+            padding: 16px;
+        }
+    </style>
+</head>
+<body>
+    <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exemplo-modal1">
+        Abrir Modal 1
+    </button>
+    <div class="modal" id="exemplo-modal1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5>Titulo da Modal</h5>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit alias porro aut necessitatibus iusto rerum perferendis quidem odit unde quasi dignissimos dolores eaque temporibus, vel ex, possimus velit, nulla odio?
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <h5>Rodapé da Modal</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <!-- Tirar a opção de fechar a modal clicando fora do pup-up -->
+    
+    <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exemplo-modal2">
+        Abrir Modal 2
+    </button>
+    <div class="modal" id="exemplo-modal2" data-bs-backdrop="static">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5>Titulo da Modal</h5>
+                    <button data-bs-dismiss="modal" class="btn-close" type="button"></button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit alias porro aut necessitatibus iusto rerum perferendis quidem odit unde quasi dignissimos dolores eaque temporibus, vel ex, possimus velit, nulla odio?
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+                    <button type="button" class="btn btn-success" data-bs-dismiss="modal">Confirmar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+
+    <!-- Colocando o Pop-Up para aparecer depois de 3 segundos (ta em milisegundos)-->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const modalExemplo = new bootstrap.Modal('#exemplo-modal2');
+            setTimeout(function() {
+                modalExemplo.show();
+            }, 3000)
+        })
+    </script>
+
+
+</body>
+</html>

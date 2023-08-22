@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+body {
+    background-color:azure;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+header {
+    margin-top: 100px;
+    padding: 16px 0;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+input {
+    padding: 10px 10px;
+    margin-right: 5px;
+}
+
+button {
+    padding: 10px 30px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+ul {
+    margin-top: 10px;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+}

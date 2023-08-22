@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            background-image: url(https://images.pexels.com/photos/792416/pexels-photo-792416.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+            height: 500px;
+            width: 100%;
+            background-repeat: no-repeat;
+            background-color: red;
+            background-size: contain;
+            /*background-size: contain;*/
+        }
+    </style>
+</head>
+<body>
+    <picture>
+        <source media="(max-width: 1024px)" srcset="https://images.pexels.com/photos/70069/pexels-photo-70069.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+        <source media="(min-width: 1280px)" srcset="https://images.pexels.com/photos/75973/pexels-photo-75973.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+        <img src="https://images.pexels.com/photos/792416/pexels-photo-792416.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+    </picture>
+    <div></div>
+</body>
+</html>
