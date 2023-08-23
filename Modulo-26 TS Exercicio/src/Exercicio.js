@@ -11,3 +11,4 @@ function saudacao(nome) {
 }
 const saudacaoOlá = saudacao('Rafael Chipitelli');
 console.log(saudacaoOlá);
+
