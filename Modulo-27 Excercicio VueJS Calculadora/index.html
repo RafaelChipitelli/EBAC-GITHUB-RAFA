@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caluladora Aritmética com VueJS</title>
+  </head>
+<body>
+
+  <div id="app"></div>
+
+  <div class="container">
+    <div id="appgpt" class="p-5 bg-light rounded-3">
+      <input class="col-3" v-model="numero1" type="number">
+      <select  class="col-2" v-model="operacao">
+        <option value="+">+ Adição</option>
+        <option value="-">- Subtração</option>
+        <option value="*">* Multiplicação</option>
+        <option value="/">/ Divisão</option>
+      </select>
+      <input class="col-3" v-model="numero2" type="number">
+      <br>
+      <br>
+      <p>Resultado: {{ resultado }}</p>
+
+    </div>
+  </div>
+
+  
+
+    <script type="module" src="/src/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
